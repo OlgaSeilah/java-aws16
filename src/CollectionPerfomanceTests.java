@@ -30,19 +30,19 @@ public class CollectionPerfomanceTests {
 
         start = System.nanoTime();
         fullLinkedList.contains(1000);
-        System.out.println("Time for contains in fullLinkedList is " + (System.nanoTime() - start));
+        System.out.println("Time for contains in LinkedList is " + (System.nanoTime() - start));
 
         start = System.nanoTime();
         fullHashSet.contains(1000);
-        System.out.println("Time for contains in fullHashSet is " + (System.nanoTime() - start));
+        System.out.println("Time for contains in HashSet is " + (System.nanoTime() - start));
 
         start = System.nanoTime();
         fullLinkedHashSet.contains(1000);
-        System.out.println("Time for contains in fullLinkedHashSet is " + (System.nanoTime() - start));
+        System.out.println("Time for contains in LinkedHashSet is " + (System.nanoTime() - start));
 
         start = System.nanoTime();
         fullTreeSet.contains(1000);
-        System.out.println("Time for contains in fullTreeSet is " + (System.nanoTime() - start));
+        System.out.println("Time for contains in TreeSet is " + (System.nanoTime() - start));
 
     }
 
